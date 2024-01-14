@@ -1,0 +1,181 @@
+/*general styling*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.scrollspy-example.bg-body-tertiary.p-3.rounded-2 {
+  padding: 0 !important;
+}
+
+/*navbar styling*/
+
+.navbar {
+  background-color: #05445e;
+  margin: auto;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.nav-item,
+.navbar-toggler {
+  color: antiquewhite;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #d4f1f4;
+}
+
+.btn {
+  color: antiquewhite;
+}
+
+.navbar-collapse {
+  color: #d4f1f4;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #d4f1f4;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #d4f1f4;
+  text-decoration: underline;
+}
+
+.nav-link:focus,
+.navbar-brand:focus,
+.nav-link:focus {
+  color: antiquewhite;
+}
+
+.navbar-toggler {
+  border-color: antiquewhite;
+}
+
+.btn1:hover,
+.btn2:hover {
+  text-decoration: underline;
+}
+
+.btn1,
+.btn2 {
+  border: none;
+}
+
+/*generalised text styling*/
+
+h1 {
+  font-family: Nunito;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #05445e;
+}
+
+/*generalised container styling*/
+
+section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+/*home page styling*/
+#home {
+  background-image: url(https://www.officelovin.com/wp-content/uploads/2020/05/switching-time-shanghai-office-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  text-align: center;
+  margin: auto;
+  max-height: 98%;
+}
+
+.hometext {
+  background-color: rgba(73, 74, 85, 0.9);
+  border-radius: 10px;
+  margin: auto;
+}
+.logo {
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(250, 235, 215, 0.7);
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.carhlink {
+  color: antiquewhite;
+}
+/*meet directors styling*/
+
+.row {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.carousel-item {
+  padding-bottom: 60px;
+  color: antiquewhite;
+}
+
+.carolist {
+  list-style-type: none;
+}
+
+#meetdirectors {
+  height: fit-content;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 30%;
+  width: auto;
+}
+
+.card-text {
+  margin: auto;
+}
+
+.mdheader {
+  padding-top: 100px;
+}
+
+#times {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 19%;
+  height: 300px;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: auto;
+}
+
+#times h2 {
+  color: #fafafa;
+}
