@@ -42,7 +42,7 @@
     <title>New Forward Care</title>
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#contact">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#home">New Forward Care</a>
@@ -60,7 +60,7 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul
             class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll "
-            style="-bs-scroll-height:100px"
+            
           >
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#home">Home</a>
@@ -119,16 +119,16 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item ci1 active">
               <p>Welcome to New Forward Care, a new and innovative service that provides personalised and holistic care for people with autism and mental health issues. <br> We believe that everyone deserves to live a fulfilling and meaningful life, and we are here to support you on your journey.</p>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ci1">
               <p>
                 At New Forward Care, we understand that each person is unique and has different needs and goals. <br>That is why we work with you on a one-on-one basis, to tailor our care to your preferences and aspirations. <br>We offer a range of services, such as:
               </p>
 
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ci1">
               <ul class="carolist">
                 <li>
                   Community-based support, to help you access social, educational and employment opportunities.
@@ -142,12 +142,12 @@
                 </li>
               </ul>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ci1">
               <p>
                 Our team consists of qualified and experienced professionals, who have a passion for working with people with autism and mental health issues. <br>We also work closely with your family, carers and other agencies, to ensure that you receive coordinated and consistent care.
               </p>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ci1">
               <p>
                 If you are interested in finding out more about our service, please <a href="#contact" class="carhlink">CONTACT US</a> today. <br>We would love to hear from you and discuss how we can help you achieve your goals and live the life you want.
               </p>
@@ -163,7 +163,7 @@
       <div class="container">
 
         <h1 class="mdheader">Meet The Directors</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 dcards">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           <div class="col">
             <div class="card h-100">
               <img src="https://thumbs.dreamstime.com/b/friendly-smile-13020433.jpg" class="card-img-top" alt="...">
@@ -204,41 +204,58 @@
       </div>
     </section>
 
-    <section id="times">
-      <div>
-          <h2>Urban <i class="fas fa-city"></i></h2>
-          <h3>Monday</h3>
-          <h3>5K</h3>
-          <h3>The Marker Hotel</h3>
-          <h3>18:30</h3>
-      </div>
-      <div>
-          <h2>Trail <i class="fas fa-tree"></i></h2>
-          <h3>Wednesday</h3>
-          <h3>10K</h3>
-          <h3>The Phoenix Park</h3>
-          <h3>18:30</h3>
-      </div>
-      <div>
-          <h2>Urban <i class="fas fa-city"></i></h2>
-          <h3>Friday</h3>
-          <h3>5K</h3>
-          <h3>The Marker Hotel</h3>
-          <h3>18:30</h3>
-      </div>
-      <div>
-          <h2>Trail <i class="fas fa-tree"></i></h2>
-          <h3>Saturday</h3>
-          <h3>10K</h3>
-          <h3>The Phoenix Park</h3>
-          <h3>09:30</h3>
-      </div>
-      <div>
-          <h2>Coffee <i class="fas fa-mug-hot"></i></h2>
-          <h3>Sunday</h3>
-          <h3>0K</h3>
-          <h3>The Marker Hotel</h3>
-          <h3>11:30</h3>
+    <section id="events">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-pause="hover" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item ci2 active">
+            <img src="assets/images/walking.jpg" alt="people walking through a forest">
+
+            <div class="carousel-caption eventtext">
+              <h1>Group Walking</h1>
+              <p>Mondays and Thursdays: <br> 9am untill 11am <br> Meet at the <a href="#contact" class="carhlink">OFFICE!</a> </p>
+            </div>
+          
+          </div>
+          <div class="carousel-item ci2 ">
+            <img src="assets/images/Spa.jpg"  alt="blue stones and candles in a spa">
+            <div class="carousel-caption eventtext">
+              <h1>Relaxing Afternoons</h1>
+              <p>Tuesdays and Fridays:<br>
+                1pm untill 3pm <br> Meet at the <a href="#contact" class="carhlink">OFFICE!</a> </p>
+
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item ci2">
+            <img src="assets/images/officepool.jpg"  alt="pool table">
+            <div class="carousel-caption eventtext">
+              <h1>Pool Power Hour</h1>
+              <p>Mondays and thursdays:<br>12pm untill 1PM<br>Meet at <a href="https://maps.app.goo.gl/xHvTmHaeoQVsFbez7" target="_blank" class="carhlink">On Cue</a></p>
+            </div>
+          </div>
+          <div class="carousel-item ci2">
+            <img src="assets/images/coffee.jpg"  alt="...">
+            <div class="carousel-caption eventtext">
+              <h5>Coffee Mornings</h5>
+              <p>Tuesdays and Wednesdays:<br>
+              10AM untill 12PM<br>Join us at the <a href="#contact" class="carhlink">OFFICE!</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
   </section>
 
@@ -246,7 +263,7 @@
       <div>contact us</div>
     </section>
 
-    </div>div
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
