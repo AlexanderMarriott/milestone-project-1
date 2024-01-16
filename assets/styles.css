@@ -10,8 +10,7 @@ body {
   overflow-x: hidden;
 }
 .scrollspy-example.bg-body-tertiary.p-3.rounded-2 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+  padding: 0 !important;
 }
 
 ol {
@@ -97,7 +96,6 @@ section {
   width: 100%;
   position: relative;
   display: flex;
-  padding-bottom: 20px;
 }
 
 /*home page styling*/
@@ -202,4 +200,53 @@ section {
 }
 .eventtext h1 {
   color: antiquewhite;
+}
+
+iframe {
+  max-width: 98%;
+  height: auto;
+  border-radius: 10px;
+  padding-bottom: 0, 10px, 10px, 10px;
+}
+
+#contact {
+  padding-top: 100px;
+  height: fit-content;
+  padding-bottom: 80px;
+}
+
+.card-title {
+  text-decoration: underline;
+}
+
+.my-4 {
+  margin: auto !important;
+}
+
+.py-3 {
+  padding: 0 !important;
+}
+
+.contactus {
+  padding: 0;
+  list-style-position: inside;
+}
+
+.contactbtn {
+  color: #05445e;
+  border-color: #05445e;
+  margin-top: 10%;
+}
+
+.contactbtn:hover {
+  background-color: #05445e;
+  color: antiquewhite;
+}
+
+footer p {
+  padding-left: 3%;
+}
+
+.ctsignup {
+  padding-top: 20px;
 }
