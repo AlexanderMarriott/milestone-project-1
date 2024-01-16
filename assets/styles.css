@@ -250,3 +250,31 @@ footer p {
 .ctsignup {
   padding-top: 20px;
 }
+
+/*signin.html styling*/
+
+/*positioning of sign in form*/
+
+.form-signin {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* sign in form btn styling */
+.signinbtn {
+  background-color: #05445e;
+  color: antiquewhite;
+  margin-top: 10px;
+}
+
+.signinbtn:hover {
+  color: #05445e;
+  border-color: #05445e;
+}
+/* sign in form border box styling */
+.form-control {
+  border-color: #05445e;
+  margin: 10px;
+}
