@@ -278,3 +278,7 @@ footer p {
   border-color: #05445e;
   margin: 10px;
 }
+
+.modal-dialog {
+  pointer-events: all;
+}
