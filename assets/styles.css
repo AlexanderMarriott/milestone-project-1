@@ -110,7 +110,7 @@ section {
   width: 100vw;
   text-align: center;
   margin: auto;
-  max-height: 98%;
+  max-height: fit-content;
 }
 /*changes the background color in carousel*/
 .hometext {
