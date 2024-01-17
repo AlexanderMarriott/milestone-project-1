@@ -335,3 +335,12 @@ form img {
     padding: 0px 10px;
   }
 }
+
+.card img {
+  height: 10rem;
+  width: auto;
+}
+
+.card-body {
+  height: 25rem;
+}
