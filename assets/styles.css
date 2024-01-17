@@ -95,6 +95,7 @@ section {
   height: 100vh;
   width: 100%;
   position: relative;
+  display: flex;
 }
 
 /*home page styling*/
@@ -198,7 +199,7 @@ section {
   background-color: rgba(73, 74, 85, 0.9);
   border-radius: 10px;
   margin: auto;
-  width: 90%;
+  width: fit-content;
   height: fit-content;
   padding: 0px 10px;
 }
