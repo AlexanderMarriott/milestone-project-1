@@ -93,7 +93,6 @@ h1 {
 
 section {
   height: 100vh;
-  width: 100%;
   position: relative;
   display: flex;
 }
@@ -193,6 +192,7 @@ section {
   position: absolute;
   color: antiquewhite;
   top: 50%;
+  margin: auto;
 }
 
 .eventtext {
@@ -325,7 +325,7 @@ form img {
   background-color: #f8f9fa;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 428px) and (max-height: 926px) and (-webkit-device-pixel-ratio: 3) {
   .eventtext {
     background-color: rgba(73, 74, 85, 0.9);
     border-radius: 10px;
