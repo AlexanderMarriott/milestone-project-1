@@ -198,7 +198,7 @@ section {
   background-color: rgba(73, 74, 85, 0.9);
   border-radius: 10px;
   margin: auto;
-  width: fit-content;
+  width: 90%;
   height: fit-content;
   padding: 0px 10px;
 }
