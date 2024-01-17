@@ -203,6 +203,7 @@ section {
   height: fit-content;
   padding: 0px 10px;
 }
+
 .eventtext h1 {
   color: antiquewhite;
 }
@@ -322,4 +323,15 @@ form img {
 .vhcareers {
   height: 100vh;
   background-color: #f8f9fa;
+}
+
+@media screen and (max-width: 428px) {
+  .eventtext {
+    background-color: rgba(73, 74, 85, 0.9);
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    height: fit-content;
+    padding: 0px 10px;
+  }
 }
