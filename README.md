@@ -7,6 +7,8 @@
 3. Website Structure and Design
    1. Design Choices
    2. WireFrames
+      1. Proposed Layout
+      2. Revised Layout
 4. Built With
 5. Testing
 6. License
@@ -40,23 +42,42 @@ I used this infomation to utilise my knowlege of design coupled with the psycolo
 I also decided on the use of carousels and cards. Both of these elements allow
 you to display a lot of information in an easy to read, focused and interactive format. This allows users to browse each element at leasure taking away the daunting task of reading block text and giving them time to digest any information they read.
 
+the company opted not to link any of their social media to their website at this point whilst their pages are under revision.
+
 ### WireFrames
 
-Home page:
+The propsed layouts were shown to the team at NFC before commencing with development.
+they were happy with what was shown and so i commenced working on the project.
+
+During development certain elements seemed busy or like they could be presented better. In these Scenarios revised Layouts were designed and sent over to the NFC team for approval.
+
+Please find the proposed and revised Layouts below:
+
+#### Proposed Layout
+
+Home page proposed layout:
 ![home page wireframe](assets/images/readme/home.png)
 
-Meet Directors:
-![meet directors wireframe](assets/images/readme/meetdirectors.png)
+Meet Directors proposed layout:
+![Alt text](assets/images/readme/meetdirectors.png)
 
-Events:
+Events proposed layout:
 ![events wireframe](assets/images/readme/events.png)
 
-Contact Us:
+Contact Us proposed layout:
 ![contact us wireframe](assets/images/readme/contact.png)
+
+#### Revised Layout
+
+navbar revised layout:
+![Alt text](assets/images/readme/revisednavbar.png)
+
+Events revised layout:
+![Alt text](assets/images/readme/revisedevents.png)
 
 ## Built With
 
-This website was built using HTML, CSS and Bootstrap componants in VS Code Editor.
+This website was built using HTML, CSS and [Bootstrap](https://getbootstrap.com/) componants in [VS Code Editor](https://code.visualstudio.com/).
 
 ## Testing
 
