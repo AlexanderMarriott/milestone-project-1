@@ -1,5 +1,12 @@
-/*general styling*/
+/* 
 
+
+
+|| General Styling
+
+
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -8,9 +15,6 @@
 
 body {
   overflow-x: hidden;
-}
-.scrollspy-example.bg-body-tertiary.p-3.rounded-2 {
-  padding: 0 !important;
 }
 
 ol {
@@ -21,8 +25,50 @@ p,
 ul {
   font-size: 20px;
 }
-/*navbar styling*/
 
+h1 {
+  font-family: Nunito;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #05445e;
+}
+
+section {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+/* 
+
+
+
+|| css targeting bootstrap 
+
+
+
+*/
+.my-4 {
+  margin: auto !important;
+}
+
+.py-3 {
+  padding: 0 !important;
+}
+
+.scrollspy-example.bg-body-tertiary.p-3.rounded-2 {
+  padding: 0 !important;
+}
+
+/* 
+
+
+
+|| Nav-bar styling
+
+
+
+*/
 .navbar {
   background-color: #05445e;
   margin: auto;
@@ -80,24 +126,15 @@ ul {
   border: none;
 }
 
-/*generalised text styling*/
+/* 
 
-h1 {
-  font-family: Nunito;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #05445e;
-}
 
-/*generalised section styling*/
 
-section {
-  height: 100vh;
-  position: relative;
-  display: flex;
-}
+|| home page styling
 
-/*home page styling*/
+
+
+*/
 #home {
   background-image: url(https://www.officelovin.com/wp-content/uploads/2020/05/switching-time-shanghai-office-2.jpg);
   background-repeat: no-repeat;
@@ -116,14 +153,13 @@ section {
   margin: auto;
   max-height: fit-content;
 }
-/*changes the background color in carousel*/
+
 .hometext {
   background-color: rgba(73, 74, 85, 0.9);
   border-radius: 10px;
   margin: auto;
 }
 
-/*styling for logo inside carousel*/
 .logo {
   height: 15rem;
   width: 15rem;
@@ -132,7 +168,6 @@ section {
   margin-top: 1rem;
 }
 
-/*changes list type styling inside carousel*/
 .carolist {
   list-style-type: none;
 }
@@ -147,7 +182,25 @@ section {
 .carhlink {
   color: antiquewhite;
 }
-/*meet directors styling*/
+
+/* 
+
+
+
+|| meet directors styling
+
+
+
+*/
+
+#meetdirectors {
+  height: fit-content;
+  padding-bottom: 30px;
+}
+
+.mdheader {
+  padding-top: 100px;
+}
 
 .row {
   max-width: 100%;
@@ -156,24 +209,33 @@ section {
   padding-top: 100px;
 }
 
-#meetdirectors {
-  height: fit-content;
-  padding-bottom: 30px;
-}
-
 .card-img-top {
   object-fit: cover;
   height: 30%;
   width: auto;
 }
 
+.card-body-meet {
+  height: 25rem;
+}
+
 .card-text {
   margin: auto;
 }
 
-.mdheader {
-  padding-top: 100px;
+.card img {
+  height: 10rem;
 }
+
+/* 
+
+
+
+|| events styling
+
+
+
+*/
 
 #events img {
   object-fit: cover;
@@ -219,6 +281,16 @@ iframe {
   padding: 0 10px 10px 10px;
 }
 
+/* 
+
+
+
+|| contact styling
+
+
+
+*/
+
 #contact {
   padding-top: 100px;
   height: fit-content;
@@ -227,14 +299,6 @@ iframe {
 
 .card-title {
   text-decoration: underline;
-}
-
-.my-4 {
-  margin: auto !important;
-}
-
-.py-3 {
-  padding: 0 !important;
 }
 
 .contactus {
@@ -253,17 +317,38 @@ iframe {
   color: antiquewhite;
 }
 
-footer p {
-  padding-left: 3%;
-}
-
 .ctsignup {
   padding-top: 20px;
 }
 
-/*signin.html styling*/
+.hiddencard {
+  width: 208%;
+}
 
-/*positioning of sign in form*/
+/* 
+
+
+
+|| Footer styling
+
+
+
+*/
+
+footer p {
+  padding-left: 3%;
+}
+
+/* 
+
+
+
+|| signin.html styling
+
+
+
+
+*/
 
 .form-signin {
   width: 50%;
@@ -272,7 +357,6 @@ footer p {
   transform: translate(50%, -50%);
 }
 
-/* sign in form btn styling */
 .signinbtn {
   background-color: #05445e;
   color: antiquewhite;
@@ -283,33 +367,39 @@ footer p {
   color: #05445e;
   border-color: #05445e;
 }
-/* sign in form border box styling */
+
 .form-control {
   border-color: #05445e;
   margin: 10px;
 }
 
-/* modal behaviours */
-.modal-dialog {
-  pointer-events: all;
-}
+/* 
 
-.signupbgcolor {
-  background-color: #f8f9fa;
-}
+
+
+|| this style is applied to the body tag of careers.html, signin.html, signup.html,
+signinconfirm.html and signupconfirm.html
+
+
+
+
+*/
 
 .bodystyle {
   background-color: #f8f9fa;
   height: 100vh;
 }
 
-.hiddencard {
-  width: 208%;
-}
+/* 
 
-form img {
-  margin: auto;
-}
+
+
+|| carrers.html styling
+
+
+
+
+*/
 
 .cs {
   width: auto;
@@ -324,10 +414,19 @@ form img {
   transform: translate(-50%, -50%);
 }
 
-.vhcareers {
-  height: 100vh;
-  background-color: #f8f9fa;
-}
+/* 
+
+
+
+|| media queries
+
+
+
+
+*/
+
+/* this changes the style of the event text class when viewed on mobile.
+added to combat styling issues found in live bug testing.*/
 
 @media screen and (max-width: 430px) and (max-height: 932px) and (-webkit-device-pixel-ratio: 3) {
   .eventtext {
@@ -338,12 +437,4 @@ form img {
     height: fit-content;
     padding: 0px 10px;
   }
-}
-
-.card img {
-  height: 10rem;
-}
-
-.card-body-meet {
-  height: 25rem;
 }
