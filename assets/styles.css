@@ -48,13 +48,6 @@ section {
 
 
 */
-.my-4 {
-  margin: auto !important;
-}
-
-.py-3 {
-  padding: 0 !important;
-}
 
 .scrollspy-example.bg-body-tertiary.p-3.rounded-2 {
   padding: 0 !important;
@@ -337,6 +330,14 @@ iframe {
 
 footer p {
   padding-left: 3%;
+}
+
+.my-4 {
+  margin: auto !important;
+}
+
+.py-3 {
+  padding: 0 !important;
 }
 
 /* 
