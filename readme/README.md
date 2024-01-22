@@ -4,27 +4,39 @@
 
 1. Introduction
 2. Project Goals
-3. Website Structure and Design
+3. Deployment
+4. Website Structure and Design
    1. Design Choices
    2. WireFrames
       1. Proposed Layout
       2. Revised Layout
-4. Built With
-5. Testing
-6. License
-7. Contact
-8. Acknowledgements
+5. Built With
+6. Testing
+7. License
+8. Contact
+9. Acknowledgements
 
 ## Introduction
 
 This is a website for a company called New Forward Care as part of the Codeinstitute Milestone 1 Project.
 they specilise in supporting adults with autism and mental health issues.
 
-place holder images have been used in place of the real directors just for the purpose of this project.
+Place holder images have been used in place of the real directors just for the purpose of this project.
 
 ## Project Goals
 
-The goal of this project was to build a clear, informative, welcoming and easy to use platform that illustrates to the best of its ability the services offered by New Forward Care LTD, whilst also fulfilling all the criteria of the Code Institute Milestone 1 Project.
+The goal of this project was to build a clear, informative, welcoming, responive and easy to use platform that illustrates to the best of its ability the services offered by New Forward Care LTD, whilst also fulfilling all the criteria of the Code Institute Milestone 1 Project.
+
+## Deployment
+
+Website has been deployed on github pages. Find it by copying this link into your navigation bar:
+https://alexandermarriott.github.io/milestone-project-1/
+
+find out how to deploy your own site to github pages by going to this address:
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+Details on how to fork this repository can be found here:
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 
 ## Website Structure and Design
 
@@ -34,10 +46,10 @@ I sat down with the company directors and we discussed the company and their nee
 
 I used this infomation to utilise my knowlege of design coupled with the psycology of color to come up with the following color pallet:
 
-#d4f1f4
-#75e6da
-#189ab4
-#05445e
+- #d4f1f4
+- #75e6da
+- #189ab4
+- #05445e
 
 I also decided on the use of carousels and cards. Both of these elements allow
 you to display a lot of information in an easy to read, focused and interactive format. This allows users to browse each element at leasure taking away the daunting task of reading block text and giving them time to digest any information they read.
@@ -49,39 +61,43 @@ the company opted not to link any of their social media to their website at this
 The propsed layouts were shown to the team at NFC before commencing with development.
 they were happy with what was shown and so i commenced working on the project.
 
-During development certain elements seemed busy or like they could be presented better. In these Scenarios revised Layouts were designed and sent over to the NFC team for approval.
+During development certain elements seemed busy or like they could be presented in a more accessable way. In these Scenarios revised Layouts were designed and sent over to the NFC team for approval.
 
 Please find the proposed and revised Layouts below:
 
 #### Proposed Layout
 
 Home page proposed layout:
-![home page wireframe](assets/images/readme/home.png)
+![home page wireframe](images/wireframes/home.png)
 
 Meet Directors proposed layout:
-![Alt text](assets/images/readme/meetdirectors.png)
+![meet directors wireframe](images/wireframes/meetdirectors.png)
 
 Events proposed layout:
-![events wireframe](assets/images/readme/events.png)
+![events wireframe](images/wireframes/events.png)
 
 Contact Us proposed layout:
-![contact us wireframe](assets/images/readme/contact.png)
+![contact us wireframe](images/wireframes/contact.png)
 
 #### Revised Layout
 
 navbar revised layout:
-![Alt text](assets/images/readme/revisednavbar.png)
+![revised nav bar layout wireframe](images/wireframes/revisednavbar.png)
 
 Events revised layout:
-![Alt text](assets/images/readme/revisedevents.png)
+![events revised wireframe](images/wireframes/revisedevents.png)
 
 ## Built With
 
 This website was built using HTML, CSS and [Bootstrap](https://getbootstrap.com/) componants in [VS Code Editor](https://code.visualstudio.com/).
 
+Logo Creation was done via [Canva](https://www.canva.com/)
+
 ## Testing
 
-Guidelines for contributing to your project.
+https://validator.w3.org/
+
+https://jigsaw.w3.org/css-validator/
 
 ## License
 
