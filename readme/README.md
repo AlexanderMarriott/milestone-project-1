@@ -58,7 +58,10 @@ I used this infomation to utilise my knowledge of design coupled with the psycho
 
 I also decided on the use of carousels and cards. Both of these elements allow
 you to display a lot of information in an easy to read, focused and interactive format. This allows users to browse each element at leisure taking away the daunting task of reading block text and giving them time to digest any information they read.
-
+![home page](images/website/home.png)
+![meet the directors page](images/website/meetthedirectors.png)
+![events page](images/website/events.png)
+![contact us page](images/website/contactus.png)
 the company opted not to link any of their social media to their website at this point whilst their pages are under revision.
 
 ### WireFrames
@@ -159,7 +162,7 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-iss
 
 #### Google lighthouse results
 
-![google lighthouse results](images/lighthouse-results.png)
+![google lighthouse results](images/testing/lighthouse-results.png)
 
 ## Contact
 
