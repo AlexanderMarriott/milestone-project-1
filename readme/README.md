@@ -12,6 +12,8 @@
       2. Revised Layout
 5. Built With
 6. Testing
+   1. Validation
+   2. Live Testing
 7. License
 8. Contact
 9. Acknowledgements
@@ -95,18 +97,72 @@ Logo Creation was done via [Canva](https://www.canva.com/)
 
 ## Testing
 
-https://validator.w3.org/
+### Validation
+
+The webite has been ran through both validation services below.
+A warning appears on the index.html file due to me using the logo as the header as opposed to a H1 element within the section. This was a design choice and was expected.
+
+initial testing returned multiple trailing / on void element warnings. this was due to the use of prettier in vs code. i was able to disable this by adding the following code to the settings.json file:
+
+"editor.formatOnSave": true,
+"[html]": {
+"editor.defaultFormatter": "vscode.html-language-features"
+}
+
+I found the solution at this web address:
+
+https://stackoverflow.com/questions/50261161/how-do-i-stop-prettier-from-formatting-html-files/56061737#56061737
+
+There was also some issues with duplicate code which arose from copy and pasting certain elements across all pages which was rectified by simply removing the duplicate code.
+
+Please find the final results below:
+
+![index.html test results](images/testing/index.html-test.png)
+![careers.html test results](images/testing/careers.html-test.png)
+![signin.html test results](images/testing/signin.html-test.png)
+![signinconfirm.html test results](images/testing/signinconfirm.html-test.png)
+![signup.html test results](images/testing/signup.html-test.png)
+![signupconfirm.html test results](images/testing/signupconfirm.html-test.png)
 
 https://jigsaw.w3.org/css-validator/
+![styles.css test results](images/testing/css-test.png)
 
-## License
+### Live testing
 
-Information about the project's license.
+Initial testing was done via dev tools testing different devices and screen widths.
+all tests returned working as intended.
+
+Once i had launched the site on pages i checked to see how the website displayed on my i phone 13 pro max. The text for events wasn't remaining center despite displaying correctly in dev tools. I then adjusted my css and added a media query to push the text to the right on mobile devices to keep them all uniform.
+
+After finding the bug on my device i decided to reach out to a discord group to get as many devices and browsers looking at the site as possible so i could get live feedback and fix any bugs that may arise in real time. This can be seen below:
+
+![discord chat](images/testing/livetest/discord1.png)
+![discord chat](images/testing/livetest/eventsbug.png)
+![discord chat](images/testing/livetest/eventsbugfix.png)
+![discord chat](images/testing/livetest/firefoxcardbug.png)
+![discord chat](images/testing/livetest/firefoxcardfix.png)
+![discord chat](images/testing/livetest/janesmithbug.png)
+![discord chat](images/testing/livetest/janesmithlivefix.png)
+
+All bugs and errors that were found were fixed at the time of finding.
+
+Jane smith was fixed by removing the external link and adding the image to assets.
+The events issue was fixed by adjusting the pixels of the media query.
+The extended column issue was fixed by assigning a fixed height to the card body.
+
+If you notice any bugs that may have slipped through please raise an issue in the repo. you can learn how to do so by going here:
+
+https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+
+#### Google lighthouse results
+
+![google lighthouse results](images/lighthouse-results.png)
 
 ## Contact
 
-Your contact information.
+Reach out to me at alexmarriott590@gmail.com for any enqiries about web design or having a site built for yourself.
 
 ## Acknowledgements
 
-Credit anyone whose code was used.
+Template for carousels, Cards and navbar can be found at:
+https://getbootstrap.com/
