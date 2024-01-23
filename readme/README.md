@@ -120,15 +120,15 @@ There was also some issues with duplicate code which arose from copy and pasting
 
 Please find the final results below:
 
-![index.html test results](images/testing/index.html-test.png)
-![careers.html test results](images/testing/careers.html-test.png)
-![signin.html test results](images/testing/signin.html-test.png)
-![signinconfirm.html test results](images/testing/signinconfirm.html-test.png)
-![signup.html test results](images/testing/signup.html-test.png)
-![signupconfirm.html test results](images/testing/signupconfirm.html-test.png)
+![index.html test results](images/testing/validation/index.html-test.png)
+![careers.html test results](images/testing/validation/careers.html-test.png)
+![signin.html test results](images/testing/validation/signin.html-test.png)
+![signinconfirm.html test results](images/testing/validation/signinconfirm.html-test.png)
+![signup.html test results](images/testing/validation/signup.html-test.png)
+![signupconfirm.html test results](images/testing/validation/signupconfirm.html-test.png)
 
 https://jigsaw.w3.org/css-validator/
-![styles.css test results](images/testing/css-test.png)
+![styles.css test results](images/testing/validation/css-test.png)
 
 ### Live testing
 
