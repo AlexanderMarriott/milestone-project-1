@@ -106,7 +106,7 @@ Logo Creation was done via [Canva](https://www.canva.com/)
 
 ### Maunual
 
-Manual testing was performed by clicking wach link and interaction and making sure each action behaved as designed and gave a response.
+Manual testing was performed by clicking each link and interaction and making sure each action behaved as designed and gave a response.
 I then opened the site in dev tools and checked the design across multiple devices and screen sizes.
 
 All tests showed the website was working as intended.
