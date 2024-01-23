@@ -31,6 +31,9 @@ The goal of this project was to build a clear, informative, welcoming, responive
 
 ## Deployment
 
+Find the full repo here:
+https://github.com/AlexanderMarriott/milestone-project-1
+
 Website has been deployed on github pages. Find it by copying this link into your navigation bar:
 https://alexandermarriott.github.io/milestone-project-1/
 
