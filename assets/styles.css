@@ -427,7 +427,8 @@ signinconfirm.html and signupconfirm.html
 */
 
 /* this changes the style of the event text class when viewed on mobile.
-added to combat styling issues found in live bug testing.*/
+added to combat styling issues found in live bug testing.
+the information on phone size was found at https://blisk.io/devices/details/iphone-14-pro-max*/
 
 @media screen and (max-width: 430px) and (max-height: 932px) and (-webkit-device-pixel-ratio: 3) {
   .eventtext {
