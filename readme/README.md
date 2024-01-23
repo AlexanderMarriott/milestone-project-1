@@ -21,13 +21,13 @@
 ## Introduction
 
 This is a website for a company called New Forward Care as part of the Codeinstitute Milestone 1 Project.
-they specilise in supporting adults with autism and mental health issues.
+they specialise in supporting adults with autism and mental health issues.
 
 Place holder images have been used in place of the real directors just for the purpose of this project.
 
 ## Project Goals
 
-The goal of this project was to build a clear, informative, welcoming, responive and easy to use platform that illustrates to the best of its ability the services offered by New Forward Care LTD, whilst also fulfilling all the criteria of the Code Institute Milestone 1 Project.
+The goal of this project was to build a clear, informative, welcoming, responsive and easy to use platform that illustrates to the best of its ability the services offered by New Forward Care LTD, whilst also fulfilling all the criteria of the Code Institute Milestone 1 Project.
 
 ## Deployment
 
@@ -49,7 +49,7 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/workin
 
 I sat down with the company directors and we discussed the company and their needs in depth. Given the nature of their work it was clear they needed a simple, clear informative and welcoming website without overwhelming users with too much information at any one time.
 
-I used this infomation to utilise my knowlege of design coupled with the psycology of color to come up with the following color pallet:
+I used this infomation to utilise my knowledge of design coupled with the psychology of color to come up with the following color pallet:
 
 - #d4f1f4
 - #75e6da
@@ -57,16 +57,16 @@ I used this infomation to utilise my knowlege of design coupled with the psycolo
 - #05445e
 
 I also decided on the use of carousels and cards. Both of these elements allow
-you to display a lot of information in an easy to read, focused and interactive format. This allows users to browse each element at leasure taking away the daunting task of reading block text and giving them time to digest any information they read.
+you to display a lot of information in an easy to read, focused and interactive format. This allows users to browse each element at leisure taking away the daunting task of reading block text and giving them time to digest any information they read.
 
 the company opted not to link any of their social media to their website at this point whilst their pages are under revision.
 
 ### WireFrames
 
-The propsed layouts were shown to the team at NFC before commencing with development.
+The proposed layouts were shown to the team at NFC before commencing with development.
 they were happy with what was shown and so i commenced working on the project.
 
-During development certain elements seemed busy or like they could be presented in a more accessable way. In these Scenarios revised Layouts were designed and sent over to the NFC team for approval.
+During development certain elements seemed busy or like they could be presented in a more accessible way. In these Scenarios revised Layouts were designed and sent over to the NFC team for approval.
 
 Please find the proposed and revised Layouts below:
 
@@ -94,7 +94,7 @@ Events revised layout:
 
 ## Built With
 
-This website was built using HTML, CSS and [Bootstrap](https://getbootstrap.com/) componants in [VS Code Editor](https://code.visualstudio.com/).
+This website was built using HTML, CSS and [Bootstrap](https://getbootstrap.com/) components in [VS Code Editor](https://code.visualstudio.com/).
 
 Logo Creation was done via [Canva](https://www.canva.com/)
 
@@ -135,7 +135,7 @@ https://jigsaw.w3.org/css-validator/
 Initial testing was done via dev tools testing different devices and screen widths.
 all tests returned working as intended.
 
-Once i had launched the site on pages i checked to see how the website displayed on my i phone 13 pro max. The text for events wasn't remaining center despite displaying correctly in dev tools. I then adjusted my css and added a media query to push the text to the right on mobile devices to keep them all uniform.
+Once i had launched the site on pages i checked to see how the website displayed on my i phone 13 pro max. The text for events wasn't remaining centre despite displaying correctly in dev tools. I then adjusted my css and added a media query to push the text to the right on mobile devices to keep them all uniform.
 
 After finding the bug on my device i decided to reach out to a discord group to get as many devices and browsers looking at the site as possible so i could get live feedback and fix any bugs that may arise in real time. This can be seen below:
 
@@ -163,7 +163,7 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-iss
 
 ## Contact
 
-Reach out to me at alexmarriott590@gmail.com for any enqiries about web design or having a site built for yourself.
+Reach out to me at alexmarriott590@gmail.com for any enquiries about web design or having a site built for yourself.
 
 ## Acknowledgements
 
