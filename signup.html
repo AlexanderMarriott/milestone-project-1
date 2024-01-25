@@ -57,8 +57,8 @@
     </div>
   </nav>
 
-  <main class="form-signin was-validated">
-    <form>
+  <main>
+    <form class="form-signin was-validated" action="signupconfirm.html">
       <h1 class="h3 mb-3 fw-normal">Sign UP</h1>
 
       <div class="form-floating">
@@ -67,6 +67,7 @@
         <div class="invalid-feedback">Please fill out this field.</div>
         <label for="email">Email address</label>
       </div>
+
       <div class="form-floating">
         <input type="password" class="form-control form-input" id="password1" placeholder="Password" required>
 
@@ -74,18 +75,18 @@
       </div>
       <div class="form-floating">
         <input type="password" class="form-control form-input" id="password2" placeholder="Password" required>
-        <div class="valid-feedback">Valid.</div>
-        <div class="invalid-feedback">Please fill out these fields.</div>
+
         <label for="password2">Re Enter Password</label>
       </div>
+
 
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <a class="w-100 btn btn-lg signinbtn .form-button .is-valid" href="signupconfirm.html">Sign Up
-      </a>
+      <button class="w-100 btn btn-lg signinbtn" type="submit">Sign Up
+      </button>
 
       <p>
         Already have an account? Click
