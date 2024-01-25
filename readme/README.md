@@ -33,16 +33,16 @@ The goal of this project was to build a clear, informative, welcoming, responsiv
 ## Deployment
 
 Find the full repo here:
-https://github.com/AlexanderMarriott/milestone-project-1
+<https://github.com/AlexanderMarriott/milestone-project-1>
 
 Website has been deployed on github pages. Find it by copying this link into your navigation bar:
-https://alexandermarriott.github.io/milestone-project-1/
+<https://alexandermarriott.github.io/milestone-project-1/>
 
 find out how to deploy your own site to github pages by going to this address:
-https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+<https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site>
 
 Details on how to fork this repository can be found here:
-https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>
 
 ## Website Structure and Design
 
@@ -125,7 +125,7 @@ initial testing returned multiple trailing / on void element warnings. this was 
 
 I found the solution at this web address:
 
-https://stackoverflow.com/questions/50261161/how-do-i-stop-prettier-from-formatting-html-files/56061737#56061737
+<https://stackoverflow.com/questions/50261161/how-do-i-stop-prettier-from-formatting-html-files/56061737#56061737>
 
 There was also some issues with duplicate code which arose from copy and pasting certain elements across all pages which was rectified by simply removing the duplicate code.
 
@@ -138,7 +138,7 @@ Please find the final results below:
 ![signup.html test results](images/testing/validation/signup.html-test.png)
 ![signupconfirm.html test results](images/testing/validation/signupconfirm.html-test.png)
 
-https://jigsaw.w3.org/css-validator/
+<https://jigsaw.w3.org/css-validator/>
 ![styles.css test results](images/testing/validation/css-test.png)
 
 ### Live testing
@@ -166,7 +166,7 @@ The extended column issue was fixed by assigning a fixed height to the card body
 
 If you notice any bugs that may have slipped through please raise an issue in the repo. you can learn how to do so by going here:
 
-https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+<https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue>
 
 #### Google lighthouse results
 
@@ -174,9 +174,9 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-iss
 
 ## Contact
 
-Reach out to me at alexmarriott590@gmail.com for any enquiries about web design or having a site built for yourself.
+Reach out to me at <alexmarriott590@gmail.com> for any enquiries about web design or having a site built for yourself.
 
 ## Acknowledgements
 
 Template for carousels, Cards and navbar can be found at:
-https://getbootstrap.com/
+<https://getbootstrap.com/>
