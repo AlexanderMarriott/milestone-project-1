@@ -63,6 +63,10 @@ you to display a lot of information in an easy to read, focused and interactive 
 ![meet the directors page](images/website/meetthedirectors.png)
 ![events page](images/website/events.png)
 ![contact us page](images/website/contactus.png)
+![sign in page](images/website/signin.html.png)
+![sign in confirmation page](images/website/signinconfirm.html.png)
+![sign up page](images/website/signup.html.png)
+![sign up confirmation page](images/website/signupconfirm.html.png)
 the company opted not to link any of their social media to their website at this point whilst their pages are under revision.
 
 ### WireFrames
