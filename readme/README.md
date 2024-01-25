@@ -118,7 +118,7 @@ All tests showed the website was working as intended.
 
 ### Validation
 
-The webite has been ran through both validation services below.
+The website has been ran through both validation services below.
 A warning appears on the index.html file due to me using the logo as the header as opposed to a H1 element within the section. This was a design choice and was expected.
 
 initial testing returned multiple trailing / on void element warnings. this was due to the use of prettier in vs code. i was able to disable this by adding the following code to the settings.json file:
